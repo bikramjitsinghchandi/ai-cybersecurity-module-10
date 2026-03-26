@@ -5,6 +5,7 @@ services:
       - "8000:8000"
     environment:
       - OLLAMA_HOST=http://ollama-mod10:11434
+      -  JWT_SECRET=${JWT_SECRET}
     volumes:
       # Mount the notes directory to persist the database
       - ./vulnerable_archive:/app/vulnerable_archive

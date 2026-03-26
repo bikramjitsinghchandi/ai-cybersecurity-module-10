@@ -14,3 +14,7 @@ wheels/
 
 # notebook stuff
 .ipynb_checkpoints
+
+#Bik's modification
+.env
+vulnerable_archive/archiver/.env
